@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    text-align: center
+}
+.judul{
+    display: flex;
+    width: 100%;
+    padding-top: 83px;
+    font-size: 40px;
+    font-weight: 900;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+    padding: 50px 0px 50px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: center;
+}
+.box1{
+    width: 490px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: #D5FFDD;
+}
+
+.box2{
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: #FFF4DC;
+}
+.box3{
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: #FFCED7;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 392px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #E2F2FF;
+}
+.box5{
+    display: flex;
+    width: 423px;
+    height: 96px;
+    border: 1px solid #D8D6C1;
+    border-radius: 20px;
+    background-color: white;
+}
+.box6{
+    display: flex;
+    width: 230px;
+    height: 120px;
+}
+.box7{
+    display: flex;
+    width: 230px;
+    height: 120px;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+}
+.kpertama{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 392px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.kkedua{
+    flex-direction: row;
+    width: 500px;
+    height: 180px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.tentara{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.gambar1{
+    width: 240px;
+    height: 230px;
+    margin-top: -47.5px;
+}
+.t1{
+    display: flex;
+    font-weight: 500;
+    margin-top: -190px;
+    margin-left: 220px;
+}
+.t2{
+    display: flex;
+    margin-left: 220px;
+}
+.t3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 37px;
+    margin-top: 60px;
+    margin-left: 220px;
+    border-radius: 15px;
+    background-color: #399349;
+    color: white;
+    font-size: 20px;
+}
+.kedua{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.petani{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.gambar2{
+    width: 173px;
+    height: 170px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 37px;
+    margin-top: -75px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: #E29A00;
+    color: white;
+    font-size: 20px;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 37px;
+    margin-top: -75px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: #FF5573;
+    color: white;
+    font-size: 20px;
+}
+.gambar3{
+    width: 160px;
+    height: 160px;
+}
+.f1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.f2{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 37px;
+    border-radius: 15px;
+    background-color: #3279af;
+    color: white;
+    font-size: 20px;
+}
+.d1{
+    display: flex;
+    
+}
+.kanan{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.atas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.bawah{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 30px;
+    gap: 15px;
+    justify-content: center;
+}
+.gambar4{
+    width: 70px;
+    height: 70px;
+    padding: 13px;
+}
+.d1{
+    font-size: 20px;
+    padding-top: 26px;
+}
+.d11{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    margin-top: 60px;
+    margin-left: -65px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D6C1;
+}
+.d12{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    margin-top: 60px;
+    margin-left: -42px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D6C1;
+}
+.d13{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    margin-top: 60px;
+    margin-left: -70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D6C1;
+}
+.gambar5{
+    width: 120px;
+    height: 120px;
+}
+.b1{
+    font-size: 15px;
+    padding: 33px 0px 0px 0px;
+}
+.b2, .b3{
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    color: white;
+}
+@media only screen and (max-width: 1280px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        flex-direction: column;
+        padding: 50px 0px 120px 0px;
+    }
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+    }
+    .judul{
+        font-size: 32px;
+        padding-top: 50px;
+    }
+
+    .tentara{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .kedua,
+    .kkedua,
+    .bawah{
+        flex-direction: column;
+    }
+    .petani{
+        gap: 34px;
+    }
+    .kpertama,
+    .kkedua{
+        width: 289px;
+        height: 299px;
+    }
+    .kpertama{
+        display: flex;
+        padding-top: 200px;
+        background: none;
+    }
+    .atas{
+        width: 289px;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        width: 289px;
+        height: 299px;
+        margin-bottom: 30px;
+    }
+    .box2,
+    .box3,
+    .box5,
+    .box6,
+    .box7{
+        width: 289px;
+        height: 221px;
+        border-radius: 20px;
+    }
+    .box4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 289px;
+        height: 314px;
+        margin-top: 60px;
+        font-size: 12px;
+    }
+    .box5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E9E8E2;
+        border: 0;
+    }
+    .box6{
+        flex-direction: column;
+        margin-top: 250px;
+        background-color: #FFDBC5;
+    }
+    .box7{
+        flex-direction: column;
+        margin-top: 35px;
+        background-color: #8FC5ED;
+    }
+    .p1,.p2{
+        width: 213px;
+        height: 46px;
+        margin-left: 35px;
+        margin-top: -90px;
+    }
+        
+    .gambar2{
+        display: flex;
+        margin-left: 55px;
+    }
+    .t3{
+        width: 213px;
+        height: 46px;
+        margin-top: -110px;
+        margin-left: 35px;
+    }
+    .gambar1{
+        margin-left: 25px;
+    }
+    .t1{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 85px;
+    }
+    .t2{
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 65px;
+    }
+
+    .gambar3{
+        width: 230px;
+        height: 230px;
+        margin-top: -150px;
+        margin-left: 0;
+    }
+    .f3{
+        display: flex;
+        width: 213px;
+        height: 46px;
+        margin-top: -150px;
+        margin-left: 0px;
+    }
+    .f1{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .f2{
+        font-size: 12px;
+    }
+    .gambar4, .gambar5{
+        width: 213px;
+        height: 213px;
+        margin-top: -20px;
+    }
+    .d1,
+    .b1{
+        display: none;
+    }
+    .d11,
+    .d12,
+    .d13,
+    .b2,
+    .b3{
+        display: flex;
+        width: 213px;
+        height: 46px;
+        margin: 0;
+        margin-top: -70px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .kkedua{
+        background: none;
+        margin-top: 54px;
+    }
+    .kkedua,
+    .bawah{
+        align-items: center;
+        padding: 0px;
+        height: auto;
+    }
+    .gambar5{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .b2{
+        display: flex;
+        padding: 0;
+        margin-top: -60px;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: #E36415;
+    }
+    .b3{
+        display: flex;
+        padding: 0;
+        margin-top: -60px;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: #275E87;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    body{
+        display: none;
+    }
+}
